@@ -39,7 +39,7 @@ class Game {
 
     setInterval(() => {
       this.snake.start(this.failed);
-    }, 300);
+    }, 150);
 
     // Setup font
     if (this.ctx) {
